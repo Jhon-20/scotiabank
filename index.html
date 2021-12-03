@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Compiled and minified JavaScript -->
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="header_content">
+        <div class="logo">
+          <span><img src="assets/icons/logo.png" alt="" /></span>
+        </div>
+        <div class="menu"><p>Usuarios</p></div>
+      </div>
+    </header>
+    <section class="section_one">
+      <ul class="links">
+        <li><a href="#">Inicio ></a></li>
+        <li><a href="#">Operaciones ></a></li>
+        <li><a href="#">Transferencias ></a></li>
+        <li>
+          <a href="#" class="active_link"
+            >Transferencias entre cuentas Scotiabank</a
+          >
+        </li>
+      </ul>
+
+      <div class="content_text">
+        <div class="text">
+          <h5>Transferencias entre cuentas Scotiabank</h5>
+        </div>
+        <div class="icon_question">
+          <span><img src="assets/icons/pregunta.png" alt="" /></span>
+        </div>
+      </div>
+    </section>
+    <section class="section_two">
+      <div class="grilla_circle">
+        <div class="content_circle">
+          <div class="circle active_cirlce">
+            <h5 class="active_circle_text">1</h5>
+          </div>
+          <div class="text_circle">
+            <p class="active_text">Preparación</p>
+          </div>
+        </div>
+        <div class="content_circle">
+          <div class="circle desactive">
+            <h5>2</h5>
+          </div>
+          <div class="text_circle">
+            <p>Validación</p>
+          </div>
+        </div>
+        <div class="content_circle">
+          <div class="circle desactive">
+            <h5>3</h5>
+          </div>
+          <div class="text_circle">
+            <p>Transferencia exitosa</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section_three">
+      <div class="title_section">
+        <h5>Selección de cuenta cargo</h5>
+      </div>
+      <div class="combo_three">
+        <p>Cuenta de cargo</p>
+
+        <select name="prim" id="prim" class="validate combo">
+          <option value="">
+            Ahorro Moneda Nacional - AHMN - 000-0781690 --- Saldo: S/ 25.00
+            CHAVEZ CAPUENA MARIO
+          </option>
+          <option value="1">hola</option>
+          <option value="2">mundo</option>
+        </select>
+      </div>
+    </section>
+    <section class="section_four">
+      <div class="title_section">
+        <h5>Selección de cuenta abono</h5>
+      </div>
+      <p>
+        <label>
+          <input type="checkbox" />
+          <span>Transferir a un tercero en Scotiabank</span>
+        </label>
+      </p>
+      <p>Cuenta de abono</p>
+      <select name="prim" id="prim" class="validate combo">
+        <option value="" disabled selected>
+          Cuenta Corriente Moneda Nacional - CCMN - 000-3549321 --- Saldo: S/
+          1,016.14 SUPERMARKET CHABELITA
+        </option>
+        <option value="1">hola</option>
+        <option value="2">mundo</option>
+      </select>
+    </section>
+
+    <section class="section_five">
+      <div class="title_section">
+        <h5>Importe</h5>
+      </div>
+      <p>Importe a cargar</p>
+      <p class="price">120.00</p>
+    </section>
+    <section class="section_six">
+      <a href="#" type="button" class="btn btn_red">Transferir</a>
+      <a href="pagina2.html" type="button" class="btn btn_red"
+        >ADICIONAR TRANSFERENCIA</a
+      >
+    </section>
+  </body>
+</html>
